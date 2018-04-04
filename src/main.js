@@ -6,6 +6,7 @@ import router from './router'
 import {
   Vuetify,
   VApp,
+  VCard,
   VNavigationDrawer,
   VFooter,
   VList,
@@ -20,6 +21,7 @@ import '../node_modules/vuetify/src/stylus/app.styl'
 Vue.use(Vuetify, {
   components: {
     VApp,
+    VCard,
     VNavigationDrawer,
     VFooter,
     VList,
@@ -30,7 +32,7 @@ Vue.use(Vuetify, {
     transitions
   },
   theme: {
-    primary: '#ee44aa',
+    primary: '#1c2d77',
     secondary: '#424242',
     accent: '#82B1FF',
     error: '#FF5252',
